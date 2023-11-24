@@ -3,13 +3,19 @@
  */
 package my.kotlin.sandbox
 
+import java.util.Date
+
 class App {
     val greeting: String
         get() {
-            return "Hello World!"
+            return "Hello World ${ java.util.Date() }!"
         }
 }
 
 fun main() {
+    println(App().greeting)
+    println(App().greeting)
+    println(App().greeting)
+    println("MOIN")
     println(App().greeting)
 }
