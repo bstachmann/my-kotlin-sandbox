@@ -1,6 +1,5 @@
 FROM gitpod/workspace-full
 
-
-RUN brew install kotlin 
+RUN brew install java kotlin
 
 
